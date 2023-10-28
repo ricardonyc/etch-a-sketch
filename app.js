@@ -38,7 +38,7 @@ btn.addEventListener("click", () => {
     columnsNum = parseInt(prompt("select the number of columns you want:"));
     rowsNum = parseInt(prompt("select the number of rows you want:"));
 
-    if (!isNaN(columnsNum && rowsNum) && columnsNum < 50 && rowsNum < 50) {
+    if (!isNaN(columnsNum && rowsNum) && columnsNum < 100 && rowsNum < 100) {
       break;
     } else {
       alert("Please insert a number (must be less than 100)");
